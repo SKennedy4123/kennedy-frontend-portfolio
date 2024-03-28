@@ -1,0 +1,6 @@
+img {
+    border-radius: 10px;
+    max-width: 250px;
+    margin: 10px auto;
+    display: flex;
+}

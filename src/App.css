@@ -2,6 +2,17 @@
   text-align: center;
 }
 
-.Headshot {
-  border-radius: 100%;
+.App header {
+  background-color: #e9f2fec3;
+  text-align: center;
+  color: #4e2123fd;
+  padding: 10px;
+}
+
+.App h1 {
+  font-size: 40px;
+}
+
+.card {
+  border: none;
 }
