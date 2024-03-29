@@ -1,11 +1,23 @@
 import './App.css';
+import Email from './Email.png';
+import LinkedIn from './LinkedIn.png';
+import GitHub from './GitHub.png';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Sarah Kennedy</h1>
-        <h2>Junior Frontend Developer</h2>
-        <em><h4>React • JavaScript • HTML • CSS</h4></em>
-      </header>
-      </div>);}
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid justify-content-end">
+    <span class="navbar-brand mb-0 h1">Sarah Kennedy</span>
+    <a class="navbar-nav me-3" href="mailto:skennedy4123@gmail.com">
+      <img src={Email} alt="skennedy4123@gmail.com" width="34" />
+    </a>
+    <a class="navbar-nav me-3" href="https://www.linkedin.com/in/sarah-kennedy-02b2b6293/" target="_blank" rel="noreferrer">
+      <img src={LinkedIn} alt="LinkedIn" width="30" />
+    </a>
+    <a class="navbar-nav me-3" href="https://github.com/SKennedy4123" target="_blank" rel="noreferrer">
+      <img src={GitHub} alt="GitHub" width="30" />
+    </a>
+  </div>
+</nav>
+  );
+}
