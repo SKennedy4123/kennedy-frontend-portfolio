@@ -1,5 +1,7 @@
 import React from "react";
 import './Projects.css';
+import DictionaryApp from './DictionaryApp.png';
+import WeatherApp from './WeatherApp.png'
 
 export default function Projects () {
     return (
@@ -10,14 +12,14 @@ export default function Projects () {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="..." />
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src={DictionaryApp} class="d-block w-75" alt="React-Dictionary-App" />
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..." />
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src={WeatherApp} class="d-block w-75" alt="React-Weather-App" />
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..." />
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..." class="d-block w-75" alt="..." />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

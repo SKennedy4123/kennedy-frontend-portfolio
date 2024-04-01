@@ -3,19 +3,21 @@ import SarahKennedy from './SarahKennedy.jpg';
 import './PhotoBio.css';
 
 export default function PhotoBio() {
-    return <div class="card mb-3 align-items-center" className="PhotoBioCard">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src={SarahKennedy} class="img-fluid" alt="Sarah Kennedy" className="Headshot"/>
-    </div>
-    <div class="col-md-8">
-      <div class="card-body" className="Bio">
-        <h1 class="card-title">Sarah Kennedy</h1>
-        <h2 class="card-text">Junior Frontend Developer</h2>
-        <h3 class="card-text">React Javascript HTML/CSS</h3>
-        <p class="card-text text-muted">Last updated 3 mins ago</p>
+    return <div class="content-container container" >
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Sarah Kennedy</h1>
+            <h2 class="mb-4">Junior Frontend Developer</h2>
+            <h2 class="mb-4">React Javascript HTML/CSS</h2>
+            <p class="mb-5">In addition to being a junior frontend developer, I am an experienced music teacher of 11 years, and a small business owner. Superb communication, organization, and customer service skills are qualities I bring to any work environment
+            </p>
+            <a href="mailto:skennedy4123@gmail.com" type="button" class="btn btn-outline-secondary">Work with me</a>
+            </div>
+        </div>
+        <div class="col-lg-6">
+          <img src={SarahKennedy} alt="Sarah Kennedy" class="img-fluid" className="Headshot" />
+        </div>
       </div>
     </div>
-  </div>
-</div>
 };
