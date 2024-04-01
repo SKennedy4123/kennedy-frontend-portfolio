@@ -7,7 +7,7 @@ import pdf from './Sarah Kennedy Frontend Resume.pdf';
 
 export default function App() {
   return (
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light fixed-top">
   <div class="container-fluid justify-content-end">
     <span class="navbar-brand mb-0 h1">Sarah Kennedy</span>
     <a class="navbar-nav me-3" href="mailto:skennedy4123@gmail.com">
