@@ -1,5 +1,6 @@
 .Headshot {
     border-radius: 10px;
+    max-height: 550px;
 }
 
 .Bio {

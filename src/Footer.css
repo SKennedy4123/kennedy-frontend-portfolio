@@ -11,10 +11,15 @@ ul {
 
 .Contact {
     text-align: center;
+    margin: 20px 0;
 }
 
 .Footer {
     text-align: center;
     font-size: 14px;
-    margin: 10px;
+    margin: 20px;
+}
+
+img {
+    border-radius: 4px;
 }
