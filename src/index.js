@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
-import Photo from './Photo';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PhotoBio from './PhotoBio';
 import Footer from './Footer';
 import Projects from './Projects';
 
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Photo />
+    <PhotoBio />
     <Projects />
     <Footer />
   </React.StrictMode>
