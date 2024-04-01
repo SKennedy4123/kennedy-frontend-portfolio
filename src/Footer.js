@@ -24,5 +24,5 @@ export default function Footer () {
     <a href={pdf} target="_blank" rel="noreferrer">Sarah Kennedy Frontend Developer Resume</a></li>
 
 </ul>
-    <div className="Footer"><em>This page was coded by <a href="https://www.linkedin.com/in/sarah-kennedy-02b2b6293/" target="_blank" rel="noreferrer">Sarah Kennedy</a>, open-sourced on <a href="https://github.com/SKennedy4123" target="_blank" rel="noreferrer">GitHub</a>, and hosted on Netlify.</em></div>
+    <div className="Footer"><em>This page was coded by <a href="https://www.linkedin.com/in/sarah-kennedy-02b2b6293/" target="_blank" rel="noreferrer">Sarah Kennedy</a> in React.js, open-sourced on <a href="https://github.com/SKennedy4123" target="_blank" rel="noreferrer">GitHub</a>, and hosted on Netlify.</em></div>
     </div>)}
