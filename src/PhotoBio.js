@@ -13,7 +13,7 @@ export default function PhotoBio() {
             <p class="mb-5">In addition to being a junior frontend developer, I am an experienced music teacher of 11 years, and a small business owner providing custom designed sugar cookie art. Superb communication, organization, and customer service skills are qualities I bring to any work environment.
             </p>
             <a href="mailto:skennedy4123@gmail.com" type="button" class="btn btn-outline-secondary">Work with me!</a>
-            <p class="mt-5"><strong>Skills: </strong>React.js, Javascript, HTML, CSS, API, SEO, GitHub, Netlify, AI, Git, Bootstrap, Visual Studio Code, Responsive, Hosting, npm</p>
+            <p class="mt-5"><strong>Skills: </strong>React.js, Javascript, HTML, CSS, API, npm, SEO, GitHub, Netlify, AI, Git, Bootstrap, Visual Studio Code, Responsive, Hosting</p>
             <h2 class="mt-5">See my work samples:</h2>
             </div>
         </div>
